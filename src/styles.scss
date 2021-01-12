@@ -1,2 +1,20 @@
 @import "../node_modules/ag-grid-community/dist/styles/ag-grid.css";
 @import "../node_modules/ag-grid-community/dist/styles/ag-theme-alpine.css";
+
+// custom styles
+.basic-grid-two .ag-row.basic-grid-two-row:first-child {
+  border-bottom: none !important;
+}
+
+.ag-row.basic-grid-two-row {
+  background-color: indianred;
+}
+
+.ag-row.basic-grid-two-row .basic-grid-two-cell {
+  color: blue;
+  border-right: 1px solid black;
+}
+
+.ag-row.basic-grid-two-row .basic-grid-two-cell:last-child {
+  border-right: none;
+}
